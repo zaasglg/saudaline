@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mycompany.saudaline"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission
+13-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:6:5-80
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:6:22-77
+15        android:maxSdkVersion="32" />
+15-->[:file_picker] /Users/erdaulet/Desktop/sauda_line/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-35
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:7:5-81
+16-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:7:22-78
+17
+18    <queries>
+18-->[:file_picker] /Users/erdaulet/Desktop/sauda_line/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-19:15
+19        <intent>
+19-->[:file_picker] /Users/erdaulet/Desktop/sauda_line/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:18
+20            <action android:name="android.intent.action.GET_CONTENT" />
+20-->[:file_picker] /Users/erdaulet/Desktop/sauda_line/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-72
+20-->[:file_picker] /Users/erdaulet/Desktop/sauda_line/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-69
+21
+22            <data android:mimeType="*/*" />
+22-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:50:17-81
+23        </intent>
+24    </queries>
+25
+26    <uses-feature android:name="android.hardware.camera" />
+26-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-60
+26-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:19-57
+27
+28    <uses-permission android:name="android.permission.FLASHLIGHT" />
+28-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-69
+28-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-66
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/erdaulet/.gradle/caches/transforms-3/e255c6ce9910a673f2619b479a7d74a8/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
+29-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/erdaulet/.gradle/caches/transforms-3/e255c6ce9910a673f2619b479a7d74a8/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:22-76
+30
+31    <permission
+31-->[androidx.core:core:1.10.1] /Users/erdaulet/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+32        android:name="com.mycompany.saudaline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.10.1] /Users/erdaulet/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.10.1] /Users/erdaulet/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.mycompany.saudaline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.10.1] /Users/erdaulet/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.10.1] /Users/erdaulet/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:9:5-63:19
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.10.1] /Users/erdaulet/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:12:9-43
+40        android:label="SaudaLine"
+40-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:10:9-34
+41        android:largeHeap="true"
+41-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+42        android:requestLegacyExternalStorage="true"
+42-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:13:9-52
+43        android:theme="@style/Theme.AppCompat.NoActionBar" >
+43-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-59
+44        <activity
+44-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:15:9-53:20
+45            android:name="com.mycompany.saudaline.MainActivity"
+45-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:16:13-41
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:20:13-163
+47            android:exported="true"
+47-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:17:13-36
+48            android:hardwareAccelerated="true"
+48-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:21:13-47
+49            android:launchMode="singleTop"
+49-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:18:13-43
+50            android:theme="@style/LaunchTheme"
+50-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:19:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:22:13-55
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+59-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:27:13-30:17
+60                android:name="io.flutter.embedding.android.NormalTheme"
+60-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:28:15-70
+61                android:resource="@style/NormalTheme" />
+61-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:29:15-52
+62            <!--
+63                 Displays an Android View that continues showing the launch screen
+64                 Drawable until Flutter paints its first frame, then this splash
+65                 screen fades out. A splash screen is useful to avoid any visual
+66                 gap between the end of Android's launch screen and the painting of
+67                 Flutter's first frame.
+68            -->
+69            <meta-data
+69-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:36:13-39:17
+70                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+70-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:37:15-79
+71                android:resource="@drawable/launch_background" />
+71-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:38:15-61
+72
+73            <intent-filter>
+73-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:40:13-43:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:41:17-68
+74-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:41:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:42:17-76
+76-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:42:27-74
+77            </intent-filter>
+78            <!-- Deep linking -->
+79            <meta-data
+79-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:45:13-90
+80                android:name="flutter_deeplinking_enabled"
+80-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:45:24-66
+81                android:value="true" />
+81-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:45:67-87
+82
+83            <intent-filter android:autoVerify="true" >
+83-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:46:13-51:29
+83-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:46:28-53
+84                <action android:name="android.intent.action.VIEW" />
+84-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:47:17-69
+84-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:47:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:48:17-76
+86-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:48:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:49:17-78
+87-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:49:27-75
+88
+89                <data
+89-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:50:17-81
+90                    android:host="saudaline.com"
+90-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:50:50-78
+91                    android:scheme="saudaline" />
+91-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:50:23-49
+92            </intent-filter>
+93        </activity>
+94
+95        <!--
+96             Don't delete the meta-data below.
+97             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+98        -->
+99        <meta-data
+99-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:57:9-59:33
+100            android:name="flutterEmbedding"
+100-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:58:13-44
+101            android:value="2" />
+101-->/Users/erdaulet/Desktop/sauda_line/android/app/src/main/AndroidManifest.xml:59:13-30
+102
+103        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+103-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-91
+103-->[:flutter_barcode_scanner] /Users/erdaulet/Desktop/sauda_line/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:19-88
+104
+105        <provider
+105-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+106            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+106-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+107            android:authorities="com.mycompany.saudaline.flutter.image_provider"
+107-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+108            android:exported="false"
+108-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+109            android:grantUriPermissions="true" >
+109-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+110            <meta-data
+110-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+111                android:name="android.support.FILE_PROVIDER_PATHS"
+111-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+112                android:resource="@xml/flutter_image_picker_file_paths" />
+112-->[:image_picker_android] /Users/erdaulet/Desktop/sauda_line/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+113        </provider>
+114
+115        <activity
+115-->[:url_launcher_android] /Users/erdaulet/Desktop/sauda_line/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+116            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+116-->[:url_launcher_android] /Users/erdaulet/Desktop/sauda_line/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+117            android:exported="false"
+117-->[:url_launcher_android] /Users/erdaulet/Desktop/sauda_line/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+118            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+118-->[:url_launcher_android] /Users/erdaulet/Desktop/sauda_line/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+119        <activity
+119-->[com.google.android.gms:play-services-base:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/1a7d33a1dd6289df9ecade9fe9e3ac6f/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/1a7d33a1dd6289df9ecade9fe9e3ac6f/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/1a7d33a1dd6289df9ecade9fe9e3ac6f/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/1a7d33a1dd6289df9ecade9fe9e3ac6f/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/e400f5504a9bef5c23ec6dbeeb3aa8aa/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/e400f5504a9bef5c23ec6dbeeb3aa8aa/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.4.0] /Users/erdaulet/.gradle/caches/transforms-3/e400f5504a9bef5c23ec6dbeeb3aa8aa/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+127
+128        <uses-library
+128-->[androidx.window:window:1.0.0-beta04] /Users/erdaulet/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+129            android:name="androidx.window.extensions"
+129-->[androidx.window:window:1.0.0-beta04] /Users/erdaulet/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+130            android:required="false" />
+130-->[androidx.window:window:1.0.0-beta04] /Users/erdaulet/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+131        <uses-library
+131-->[androidx.window:window:1.0.0-beta04] /Users/erdaulet/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+132            android:name="androidx.window.sidecar"
+132-->[androidx.window:window:1.0.0-beta04] /Users/erdaulet/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+133            android:required="false" />
+133-->[androidx.window:window:1.0.0-beta04] /Users/erdaulet/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+134
+135        <provider
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+137            android:authorities="com.mycompany.saudaline.androidx-startup"
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+138            android:exported="false" >
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+139            <meta-data
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+141                android:value="androidx.startup" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+142        </provider>
+143
+144        <receiver
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+145            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+146            android:directBootAware="false"
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+147            android:enabled="true"
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+148            android:exported="true"
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+149            android:permission="android.permission.DUMP" >
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+151                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+152            </intent-filter>
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+154                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+155            </intent-filter>
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+157                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+158            </intent-filter>
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+160                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/erdaulet/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+161            </intent-filter>
+162        </receiver>
+163    </application>
+164
+165</manifest>
